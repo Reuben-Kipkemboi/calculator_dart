@@ -10,17 +10,17 @@ This project is used to practice the following concepts
 - Implementing recursion
 
 ## Output
-**<font color="green">Addition</font>**
+**<span style="color:green">Addition</span>**
 ![Addition Output](images/add.png "Addition Output")
 
-**<font color="green">Subtraction</font>**
+**<span style="color:green">Subtraction</span>**
 ![Subtraction output](images/minus.png "Subtraction Output")
 
-**<font color="green">Multiplication</font>**
+**<span style="color:green">Multiplication</span>**
 ![Multiplication Output](images/times.png "Multiplication Output")
 
-**<font color="green">Division</font>**
+**<span style="color:green">Division</span>**
 ![Division Output](images/divide.png "Division Output")
 
-**<font color="green">Modulus</font>**
+**<span style="color:green">Modulus</span>**
 ![Modulus Output](images/mod.png "Modulus Output")
