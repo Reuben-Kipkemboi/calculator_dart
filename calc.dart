@@ -14,3 +14,32 @@ String operandInput(){
   String userOperation = stdin.readLineSync()!;
   return userOperation;
 }
+
+// Main function
+void main(){
+  double firstNumber = userInput();
+  double secondNumber = userInput();
+  String operationOfChoice = operandInput();
+
+  double valueOfOperation = 0.0;
+
+  if (operationOfChoice == "+"){
+    valueOfOperation = firstNumber + secondNumber;
+    print("${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+  }else if(operationOfChoice == "-"){
+    valueOfOperation =firstNumber - secondNumber;
+    print("${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+  }else if(operationOfChoice == "/"){
+    valueOfOperation =firstNumber / secondNumber;
+    print("${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+  }else if(operationOfChoice == "*"){
+    valueOfOperation =firstNumber * secondNumber;
+    print("${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+    
+  }else if(operationOfChoice == "%"){
+    valueOfOperation =firstNumber % secondNumber;
+    print("${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+  }else(){
+    print("You've entered the wrong operation");
+};
+}
