@@ -30,21 +30,19 @@ void main(){
 
   if (operationOfChoice == "+"){
     valueOfOperation = firstNumber + secondNumber;
-    // print("Totals = ${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+    
     print("Totals = \x1B[1m$firstNumber \x1B[33m$operationOfChoice \x1B[1m$secondNumber = \x1B[31m$valueOfOperation");
   }else if(operationOfChoice == "-"){
     valueOfOperation =firstNumber - secondNumber;
-    print("Totals = ${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+    print("Totals = \x1B[1m$firstNumber \x1B[33m$operationOfChoice \x1B[1m$secondNumber = \x1B[31m$valueOfOperation");
   }else if(operationOfChoice == "/"){
     valueOfOperation =firstNumber / secondNumber;
-    print("Totals =${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
+   print("Totals = \x1B[1m$firstNumber \x1B[33m$operationOfChoice \x1B[1m$secondNumber = \x1B[31m$valueOfOperation");
   }else if(operationOfChoice == "*"){
     valueOfOperation =firstNumber * secondNumber;
-    print("Totals =${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
-    
+    print("Totals = \x1B[1m$firstNumber \x1B[33m$operationOfChoice \x1B[1m$secondNumber = \x1B[31m$valueOfOperation");
   }else if(operationOfChoice == "%"){
     valueOfOperation =firstNumber % secondNumber;
-    // print("Totals = ${firstNumber} ${operationOfChoice} ${secondNumber} = ${valueOfOperation}");
     print("Totals = \x1B[1m$firstNumber \x1B[33m$operationOfChoice \x1B[1m$secondNumber = \x1B[31m$valueOfOperation");
   }else(){
     print("You've entered the wrong operation");
